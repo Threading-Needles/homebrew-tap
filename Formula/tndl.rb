@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.8"
+  version "0.1.9"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.8/tndl-0.1.8-aarch64-apple-darwin.tar.gz"
-      sha256 "84b41e0aa495aef745ac4fcaf2b7fb6d2004957c3da47e4ae09c4fedc7d6b391"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.9/tndl-0.1.9-aarch64-apple-darwin.tar.gz"
+      sha256 "e0a73ae2af6dc258e6fee965fe1f86f34a79b15c3f81a5fe937e842aa867e285"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.8/tndl-0.1.8-x86_64-apple-darwin.tar.gz"
-      sha256 "c2a27d46ac03a1fdc149cb3c00f8da78099c05ff1e08ad01904e88a3d7683b42"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.9/tndl-0.1.9-x86_64-apple-darwin.tar.gz"
+      sha256 "cc33438f1b2f77e5e8ef83a2f2b12eb4c7378ae00072a64264f4b07ea9e17668"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.8/tndl-0.1.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "049c264850557ee04937075e8652932dfd4bc49a1c3204141e7b64bccf87b45b"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.9/tndl-0.1.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6d2bdfe8b4314030da18ccbbf2052c161937a2fc7bc79616801004c6cab5bb61"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.8/tndl-0.1.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e8e2c1e9a1f111291d423019703cdf1047ec7447b5cd84bf92bd4fb531705841"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.9/tndl-0.1.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4214e7e591bc268e26f63cbe126e354247b60f8483db7316c845cc3fe51354c6"
     end
   end
 
