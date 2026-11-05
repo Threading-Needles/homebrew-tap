@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.12"
+  version "0.1.13"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.12/tndl-0.1.12-aarch64-apple-darwin.tar.gz"
-      sha256 "d62c5379fac17adab1246cf09404e700abc03dda1adc63fc8724cb95ad36fbd6"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.13/tndl-0.1.13-aarch64-apple-darwin.tar.gz"
+      sha256 "c2e8ef17705f92b4efe10137265705de1ad1545744d6c5d8ecb1cae36be52742"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.12/tndl-0.1.12-x86_64-apple-darwin.tar.gz"
-      sha256 "064eecb970e5a38a5d7de38c57a05c5854d524a394ebc931ed9c1a844eee4503"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.13/tndl-0.1.13-x86_64-apple-darwin.tar.gz"
+      sha256 "a24338cbf6c89c6784c067919f30a8de12033a22b03fba38a7fa2c8b422a34c8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.12/tndl-0.1.12-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1b0c2f50001de2431edbf2cb25e6e7eb6787ab3f6799e9907f66fedd335f9db4"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.13/tndl-0.1.13-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "098d72947c4ad6a4f6f1bbf4fe936af4aecb8ee3c5ffa69a89f3d5d91abaa9ed"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.12/tndl-0.1.12-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0496ed8bad2b9a0cd9b1af6b5f50816fb1bc90ed822d3f1543c8d654928b78dc"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.13/tndl-0.1.13-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c414800d1e7ab4ab48ae3b3c7dc500d6afa5c70e65edaff03164fcaea9081fd4"
     end
   end
 
