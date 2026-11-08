@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.18"
+  version "0.1.19"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.18/tndl-0.1.18-aarch64-apple-darwin.tar.gz"
-      sha256 "b27aee429a1c41fcea324caa66be56f1062b3ff51cf059489a5f8de50dc42e01"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-aarch64-apple-darwin.tar.gz"
+      sha256 "ddc2fcc4f526509acf1cae099edc2e75b1b84d675dd1d4fe57e8007f5a36dfe8"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.18/tndl-0.1.18-x86_64-apple-darwin.tar.gz"
-      sha256 "371ca4da32e2d86ac01d8926042e3063c0a9c5ca2e4eb3d790fbf57ffb47ba43"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-x86_64-apple-darwin.tar.gz"
+      sha256 "a1945ad4029c5f79bef3fd1322307cf8d4ec78a452aeab34cefac3d76deba119"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.18/tndl-0.1.18-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3529689814bed57c219ac1f954e85f17bd745fd71bda25b6f365ccd42c7285e3"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6d9f03d727d7a31e28464cfa500086def109ec049384fb63a183c438b23d74c4"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.18/tndl-0.1.18-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "aed262f9b5cd58f02889d2c0ab084f2d346ce5bb9ce14f00e30658aa5c0eee55"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "45077e723515436167fd9329326d9cfef102c11e65275bd658f1471f79b004b3"
     end
   end
 
