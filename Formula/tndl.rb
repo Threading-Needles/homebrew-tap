@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.19"
+  version "0.1.20"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-aarch64-apple-darwin.tar.gz"
-      sha256 "ddc2fcc4f526509acf1cae099edc2e75b1b84d675dd1d4fe57e8007f5a36dfe8"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-aarch64-apple-darwin.tar.gz"
+      sha256 "f88e9cb61aa7ee7978aa643ed336a62703834222b1ffb1d0cb05f579683c07b5"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-x86_64-apple-darwin.tar.gz"
-      sha256 "a1945ad4029c5f79bef3fd1322307cf8d4ec78a452aeab34cefac3d76deba119"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-x86_64-apple-darwin.tar.gz"
+      sha256 "317afa83eedd08fb6be73e77e01254655bb1b72d49c89498752f74006d0f5222"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6d9f03d727d7a31e28464cfa500086def109ec049384fb63a183c438b23d74c4"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1c005d36809b842719f9985d5f1ed84723c7287eca7bfe152dd5c2208043be0f"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.19/tndl-0.1.19-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "45077e723515436167fd9329326d9cfef102c11e65275bd658f1471f79b004b3"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b08fbbf7b5b08bcc440b9757c63a4338ae721bbe55e339df8be9e6049aba23af"
     end
   end
 
