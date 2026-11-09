@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.20"
+  version "0.1.21"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-aarch64-apple-darwin.tar.gz"
-      sha256 "f88e9cb61aa7ee7978aa643ed336a62703834222b1ffb1d0cb05f579683c07b5"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.21/tndl-0.1.21-aarch64-apple-darwin.tar.gz"
+      sha256 "774f269a3ecc472f98a17cc6b2bd285300df4ef0fb1a24cda8f1c5daa3f43801"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-x86_64-apple-darwin.tar.gz"
-      sha256 "317afa83eedd08fb6be73e77e01254655bb1b72d49c89498752f74006d0f5222"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.21/tndl-0.1.21-x86_64-apple-darwin.tar.gz"
+      sha256 "69779475d587a25dd27c1a7beacf80b0c19e179e20ae6c598c6aa41df7a21e8d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1c005d36809b842719f9985d5f1ed84723c7287eca7bfe152dd5c2208043be0f"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.21/tndl-0.1.21-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c6f16b8207fe996665d164be1ebe7a488f9faf63829f369005279f66fc5e2176"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.20/tndl-0.1.20-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b08fbbf7b5b08bcc440b9757c63a4338ae721bbe55e339df8be9e6049aba23af"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.21/tndl-0.1.21-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7049545ac3dcf2d86b40c6f683c6e19d55da9cb851609f635f90beba77d771ab"
     end
   end
 
