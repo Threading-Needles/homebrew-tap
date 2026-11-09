@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.22"
+  version "0.1.23"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.22/tndl-0.1.22-aarch64-apple-darwin.tar.gz"
-      sha256 "31839dc8ed99327bb4a63d0987690c77919c4f0ce0ebc446da75d5657adb7117"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.23/tndl-0.1.23-aarch64-apple-darwin.tar.gz"
+      sha256 "9fd27d343c6a8ffcb9c25cd84ea6e042228d6da38b0391bd6588a2d9ea3dfcf3"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.22/tndl-0.1.22-x86_64-apple-darwin.tar.gz"
-      sha256 "4685b893755d7eabb9312a3a1601d6cead56c2ad1bd44295e6e225d37f0e8079"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.23/tndl-0.1.23-x86_64-apple-darwin.tar.gz"
+      sha256 "248b92398b511f4d9529cb7667bbd83eaf398846a7f25b586c8cfea8d184852f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.22/tndl-0.1.22-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6b9f9f3af7a526f73352b40ae28967841ade580e9ff137132ba9fcfe991fe81e"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.23/tndl-0.1.23-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e07d645556045283b33cb842fa6ee523079dd5efab25958b5e1d62a487b38984"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.22/tndl-0.1.22-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "12973feeab6fdc84d102aa7045c73409134cca7c73624e7b8d76b7423346d649"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.23/tndl-0.1.23-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ee28bfb65a27afec93fa275cf606519a29cb7cd6d37f1c7da3be5b0213b1a45b"
     end
   end
 
