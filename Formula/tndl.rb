@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.27"
+  version "0.1.28"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.27/tndl-0.1.27-aarch64-apple-darwin.tar.gz"
-      sha256 "0b891ef48229dcadafbfdc2603d3c39b848613c2c94633afe41b25adf4bc2fdc"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.28/tndl-0.1.28-aarch64-apple-darwin.tar.gz"
+      sha256 "0133859cfbfb51f384d5ff2c91368dd04eeaf59178f6cf01d01c07a9c58405c7"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.27/tndl-0.1.27-x86_64-apple-darwin.tar.gz"
-      sha256 "716ff05140acbbdcd9fbd2c2487bb7a0ac1d62e5add490b3a640c7fc0cb15046"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.28/tndl-0.1.28-x86_64-apple-darwin.tar.gz"
+      sha256 "797fa5fcde55beb839450bd06b82672e7b64f9c5f3c35833138683218e519f7c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.27/tndl-0.1.27-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1d1b3004b8f5f4810ac56c47f414385b8b897008186c36d1374ee888d3b84041"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.28/tndl-0.1.28-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5111fe705ceae840a8e79eafe1d8b36a957398016a97b72d361d0c52c61ea235"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.27/tndl-0.1.27-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "795562abfd2070e9826b38bd2c0cce9500f2109237c772f65601a1428d7c907f"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.28/tndl-0.1.28-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6f57480ba483485f25be00db8d8d11ffae09acd01a6a58d21bea9222785de7b0"
     end
   end
 
