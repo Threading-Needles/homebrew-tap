@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.30"
+  version "0.1.31"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.30/tndl-0.1.30-aarch64-apple-darwin.tar.gz"
-      sha256 "4df28e8678c963c71fb1cf62ca5898ad38fb2b32282452060fd67f2c6bfefebb"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.31/tndl-0.1.31-aarch64-apple-darwin.tar.gz"
+      sha256 "21772d81a285f6210c48fe446148e5c27b6c0a9bf514dfc56ca89b386a981871"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.30/tndl-0.1.30-x86_64-apple-darwin.tar.gz"
-      sha256 "1d604ad969d57a410e5e53b4e233977f3265cc0b4d6a1f158bad9236c3258239"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.31/tndl-0.1.31-x86_64-apple-darwin.tar.gz"
+      sha256 "0e6b73bdac083f5994a1a79da03675f61efb7273b49327509939ce0ce34f1a04"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.30/tndl-0.1.30-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "64bbacc1b2d07031fc3d2da2c092aec743f50365b1da78f87071890b2bb8ed56"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.31/tndl-0.1.31-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a3e243f33607f2a499dfac02d0b21800e1737730117d0e3276589bb45cf68f34"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.30/tndl-0.1.30-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cdfaa663f9e9b5e29e36b0b74746d9c51529009c5bd8d4624b590f179d0c8d52"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.31/tndl-0.1.31-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "961b6d868986b1640436a3d41d31f822c158fec6c8b91eeeb2c0668739c12124"
     end
   end
 
