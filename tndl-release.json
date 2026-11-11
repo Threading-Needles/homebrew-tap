@@ -1,12 +1,12 @@
 {
-  "version": "0.1.35",
-  "digest": "53d461f3b4c648a29a10d984cdec3f276a89f3669bc6c70db39fe2b7baeb8aff",
-  "sourceSha": "41dfdfc700eea5343c32da382d8181d815bd1497",
+  "version": "0.1.36",
+  "digest": "387aa89470a1e6ed57cf38b909e96662c42d4faaa9b973a66e8fcefc4838ef7e",
+  "sourceSha": "1f65e35582d36b2aeb9215211d8283abf2de1e68",
   "checksums": {
-    "aarch64-apple-darwin": "ed2734fa71b25a5fb9cbedee2c355e558118ab6092ad96493ce9fd2defc21876",
-    "x86_64-apple-darwin": "c7d93096711b364ed6926df8bd69f71128179bdb0242c1384951e039b1135546",
-    "x86_64-unknown-linux-gnu": "2317892d59915f58401411794f015bc9075b84f92417784e00b0a0200f157714",
-    "aarch64-unknown-linux-gnu": "8664a7ad5c20df9d193faec6d44fa7b17776a634c220b75c5232ffdb5d9ce16c",
-    "x86_64-pc-windows-msvc": "fe9b1aaf9356c4ba2c8d647334628ea3c506029b9628bf6bfc3af7b371ec2474"
+    "aarch64-apple-darwin": "8f04ba7803ee0f168d21752c0de1ef3457fa4040b1fa5b07b3f73356e3cd9609",
+    "x86_64-apple-darwin": "1794bacbd15b415e512ce0a366cdeb369d0ee5ed179adb26ec82785d68552ace",
+    "x86_64-unknown-linux-gnu": "041db5f0b2e3647889ae94ba5e3c40311b427ac774885b7c9a4378d69b61c480",
+    "aarch64-unknown-linux-gnu": "2a56b2e4a726d462a3ee229067c3bb7f58293464fa4ad979117c65d2d7ac5aba",
+    "x86_64-pc-windows-msvc": "fd3a45c55d5c13ef63e4f756ecf6d02a2f59d524fcb2406302bd77cfd41e03ec"
   }
 }
