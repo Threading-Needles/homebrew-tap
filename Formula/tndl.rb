@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.43"
+  version "0.1.44"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.43/tndl-0.1.43-aarch64-apple-darwin.tar.gz"
-      sha256 "44f790f0843aaf9139127b1c5341079ad2eecaf9b8f86e1be7c2abbe6cfead37"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.44/tndl-0.1.44-aarch64-apple-darwin.tar.gz"
+      sha256 "48bccf6efb6649685e6881c70563bbef80d926ade4bc9492aee597b66070ba33"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.43/tndl-0.1.43-x86_64-apple-darwin.tar.gz"
-      sha256 "e07e88aecd74ea15a31d78eb792b0fd564cf0fab437d85f6145caaa22a7fc88d"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.44/tndl-0.1.44-x86_64-apple-darwin.tar.gz"
+      sha256 "b73c360072714442127a3888b15c74742ada3dcbab01931974b40ee0722a4806"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.43/tndl-0.1.43-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2ea07aa07b0d0cb310bab98231b7bbc3843664aa2ca93f66d1177e8a13ee2505"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.44/tndl-0.1.44-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "246d204b5f7763f428aa7a164891354366ba374b2d08377cc9c5d2656d3bc3d4"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.43/tndl-0.1.43-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "01a123f12aa2acb18d12a5a49d12e696177df035d2799bdbc4831475543d427b"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.44/tndl-0.1.44-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "834e41fe82d75b00e7d39dd03f372027bc302c2022fc0ce2647f6e4427b8734a"
     end
   end
 
