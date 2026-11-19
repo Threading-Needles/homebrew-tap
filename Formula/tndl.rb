@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.55"
+  version "0.1.56"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.55/tndl-0.1.55-aarch64-apple-darwin.tar.gz"
-      sha256 "68ca66fa1122a558708e7dfe381a923d1873e016522953df8e3d9cc14df4bc38"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.56/tndl-0.1.56-aarch64-apple-darwin.tar.gz"
+      sha256 "fbc8b6f41f2ae7a43a580003ca5c879ae8159b6f1aed4f90f3c92699d5602971"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.55/tndl-0.1.55-x86_64-apple-darwin.tar.gz"
-      sha256 "fd62bccfb9de64bdbcd534c03118f95b0967d4ff74e7c07bc1cdba85e0f7d8e6"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.56/tndl-0.1.56-x86_64-apple-darwin.tar.gz"
+      sha256 "fbcb1950f946a54f4ec631fd5c90ae9c65628327f8edcab2df44a4b19b08785e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.55/tndl-0.1.55-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c3f3d220be12e4403723090e67f584c13ab55091e67b9675594b47600d09ff57"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.56/tndl-0.1.56-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a15281b89400fc51fb8b56ac71247f601b5fc2131016738c7d17715d8f71902b"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.55/tndl-0.1.55-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8192e478f65b74a9a89054175bfe93731eda55bfd64ec5734041cba94c39f4e1"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.56/tndl-0.1.56-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d4ee9798f99236e30df7953a620e5a83a2f117c68c0de89386730e2e49b5d55f"
     end
   end
 
