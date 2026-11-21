@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.60"
+  version "0.1.61"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.60/tndl-0.1.60-aarch64-apple-darwin.tar.gz"
-      sha256 "c72df4d2711117cbf28ec84e7b3115fc0871f379ffb786fcf3fcbb8f90574ccc"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.61/tndl-0.1.61-aarch64-apple-darwin.tar.gz"
+      sha256 "ad06bd6fe3e9a6f2a3011a6319668bdb1ca079444d63ac6835fc11ab06a35e34"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.60/tndl-0.1.60-x86_64-apple-darwin.tar.gz"
-      sha256 "3aee250c9d3d5eda652670432b00d97474933f0212ef6bb1cd37ec5abf529d62"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.61/tndl-0.1.61-x86_64-apple-darwin.tar.gz"
+      sha256 "e697f6203a81ecf4197fd3c4836ee10af7cd5c23bab21ff73386d2f16435f610"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.60/tndl-0.1.60-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5ed90c2152f81cb058b59b1f1f8ea38191bd0e2eef7c30f93091cd05a565c802"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.61/tndl-0.1.61-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "de06bf118b0df0ebae4bfebdd7b0f7fa0c59e15fc9f5326808ba5e3dfdec7915"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.60/tndl-0.1.60-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fb77891a6861f2cde0e300d958a7b2b2efae0b424fb0d4bc1bf866e2906ff84a"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.61/tndl-0.1.61-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "aca0ebf391730292a5a28999c426b93814105cbca810bc32fab27693261c1c1e"
     end
   end
 
