@@ -1,28 +1,28 @@
 class Tndl < Formula
   desc "Threading Needles platform CLI and MCP bridge"
   homepage "https://tndl.ai"
-  version "0.1.68"
+  version "0.1.69"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.68/tndl-0.1.68-aarch64-apple-darwin.tar.gz"
-      sha256 "16bc2b34f4eb2132ddea4a13772d034b400df06933871cd1c05db127fb08cd6c"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.69/tndl-0.1.69-aarch64-apple-darwin.tar.gz"
+      sha256 "25f32a2d9dbc99ef19d47a560bd9b0c986cee0006af49a36ef18c50ed06c5289"
     end
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.68/tndl-0.1.68-x86_64-apple-darwin.tar.gz"
-      sha256 "b139110b6aa26a79f4deaa03e1ceb21b8ef0dda42c1b74168d85daa0478adf57"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.69/tndl-0.1.69-x86_64-apple-darwin.tar.gz"
+      sha256 "314ca7dfc91834337b1bf9067a68659a8cfef3752671611a9209776b3393c852"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.68/tndl-0.1.68-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "45c77f8001475275334a8ce64567da222777dbf8daeaffe0947241c5c7c960d5"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.69/tndl-0.1.69-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "86754d51673dd0fe578c74ec44f3c504f36d75fea3d8ffeeb91173167cf4265b"
     end
     on_arm do
-      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.68/tndl-0.1.68-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5c78b3a5fa61521632c70147da72ff965d57247a6fdd1305f1296754ab08839c"
+      url "https://github.com/Threading-Needles/homebrew-tap/releases/download/tndl-v0.1.69/tndl-0.1.69-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "67450b06bc2fa4ff4def01f5e8d9709434a34206bbc3abd0822fc21df03e4b03"
     end
   end
 
